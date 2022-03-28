@@ -13,3 +13,10 @@
 .buttonclr:hover{
     background: rgb(233, 96, 33);
 }
+
+.buttonredclr{
+    background: rgb(224, 104, 104);
+}
+.buttonredclr:hover{
+    background: rgb(216, 78, 78);
+}
