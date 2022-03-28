@@ -3,3 +3,13 @@
 .mainfont{
     font-family: 'Montserrat', sans-serif;
 }
+.heroheight{
+    height: 70vh;
+}
+
+.buttonclr{
+    background: rgb(238, 117, 61);
+}
+.buttonclr:hover{
+    background: rgb(233, 96, 33);
+}
