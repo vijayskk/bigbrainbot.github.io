@@ -11,11 +11,12 @@
 <body>
     <nav>
         <div class="flex items-center h-20">
-            <img src="/images/logo2.png" alt="" class="w-60 ml-10">
-            <div class="absolute flex gap-10 right-32">
-                <a class="text-xl mainfont" href="">About</a>
-                <a class="text-xl mainfont" href="">Contact</a>
-                <a class="text-xl mainfont" href="">Services</a>
+            <img src="/images/logo2.png" alt="" class="w-60 ml-10 hidden lg:inline">
+            <img src="/images/logo3.png" alt="" class="w-10 ml-10 inline lg:hidden">
+            <div class="absolute flex gap-8 lg:gap-10 right-6 lg:right-32">
+                <a class="lg:text-xl text-sm mainfont" href="">About</a>
+                <a class="lg:text-xl text-sm mainfont" href="">Contact</a>
+                <a class="lg:text-xl text-sm mainfont" href="">Services</a>
 
             </div>
         </div>
@@ -25,9 +26,9 @@
         <div class="w-full heroheight flex justify-center gap-10 items-center">
             <div class="flex relative flex-col">
                 <h1 class="mainfont text-7xl ml-10" >AI is Coming Home</h1>
-                <button class="absolute -bottom-16 right-0 buttonclr p-2 mainfont text-white rounded-lg">See How?</button>
+                <button class="absolute -bottom-16 right-10 lg:right-0 buttonclr p-2 mainfont text-white rounded-lg">See How?</button>
             </div>
-            <img width="640px" src="/images/undraw_artificial_intelligence_re_enpp.svg" alt="">
+            <img width="600px" class="opacity-20 lg:opacity-100 lg:relative absolute p-10" src="/images/undraw_artificial_intelligence_re_enpp.svg" alt="">
         </div>
     </section>
 </body>
